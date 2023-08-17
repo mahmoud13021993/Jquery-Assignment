@@ -1,0 +1,156 @@
+/*-------global Style--------*/
+* {
+    list-style: none;
+    text-decoration: none !important;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*-----Start of nave-bar Section--------*/
+#closeBtn {
+    right: 20px;
+    top: 20px;
+}
+.nav-bar {
+    position: fixed;
+    left: -300px;
+    top: 0px;
+    height: 100vh;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 40px !important;
+    padding: 40px;
+    font-size: 40px;
+    color: #fff !important;
+    z-index: 9999999;
+}
+.nav-bar ul li  {
+    margin-bottom: 40px;
+}
+.nav-bar ul li a {
+transition: color 0.3s;
+}
+.nav-bar ul li a:hover,
+#closeBtn:hover {
+    color: rgba(214, 46, 51 , 0.6) !important;
+}
+#openBtn {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    right: -150px;
+}
+
+/*-----Start Of Home Section--------*/
+
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.layer h1 {
+    font-size: 60px;
+}
+
+/*-----Start of Singer Section--------*/
+.singer {
+    margin-block: 150px !important;
+    /* padding-top: 20px !important; */
+}
+.singer  .singer-item h2 {
+    background-color:#E68184 ;
+    font-size: 28px;
+    color: #fff;
+    padding: 20px;
+    font-weight: 500;
+}
+.singer .singer-item p {
+    background-color: #CCCCCC;
+    /* color: RGB(204, 204, 204); */
+    line-height: 24px;
+    padding: 10px;
+    font-size: 20px;
+    display: none;
+}
+.singer .singer-item  .frist {
+    display: block;
+}
+
+/*-----Start of Counter Section--------*/
+
+#counter {
+    height: 400px;
+    width: 100%;
+    background-image: url(/images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+@media (max-width:568px) {
+    #counter{
+        height: 712px;   
+    } 
+}
+
+
+.count-item {
+    
+}
+.time {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    height: 150px !important;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-inline: 20px; */
+    padding: 5px;
+}
+
+/*-----Start of Contact Section--------*/
+
+#contact {
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+#contact h2{
+    color: #444444;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.social-list span {
+ width: 30px;
+ height: 30px;
+ border: 1px solid #999;
+ padding: 5px;
+ margin-right: 10px;
+ transition:  background-color 1s ,  color 1s;
+}
+
+.social-list span:hover {
+    background-color: #D62E33;
+    color: #fff;
+}
