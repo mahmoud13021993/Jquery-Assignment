@@ -3,7 +3,7 @@ $('.nav-link').click(function(){
     console.log(selected);
     let sectionTop = $(selected).offset().top
     console.log(sectionTop)
-    $('body,html').animate({scrollTop:sectionTop},3000)
+    $('body,html').animate({scrollTop:sectionTop},1500)
 })
 
 
