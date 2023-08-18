@@ -33,7 +33,7 @@ body {
     margin-bottom: 40px;
 }
 .nav-bar ul li a {
-transition: color 0.3s;
+transition: all 0.3s;
 }
 .nav-bar ul li a:hover,
 #closeBtn:hover {
